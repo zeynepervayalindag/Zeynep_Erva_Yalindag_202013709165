@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Zeynep_Erva_Yalindag_202013709165</title>
+</head>
+<body style="background-color: black;">
+  <br>
+  <div class="jumbotron text-center" style="margin-left:10px ;margin-right:7px">
+    <p style="color:black; font-size: 50px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Beyaz Şapkalı</p>
+      <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Beyaz şapkalı hacker olma kursumuza katılmak için aşağıdaki programlardan birini seçin ve formu doldurun.</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 img-rounded" style="color:white;text-align: center; background-color: rgb(0, 119, 255); margin-right:5px;margin-left: -10px;">
+        <h3 style="font-size: 40px; ">Başlangıç</h3>
+        <hr>
+        <p style="font-size: 20px;">Yeni Başlayanlar</p>
+        <p>
+          Bilgisayar dünyası hakkında biraz bilginiz <br>
+          var ve hacker olmak istiyorsanız size uygun <br>
+          kurs.
+        </p>
+        <hr>
+        <input type="radio" name="ayniad"> Seç
+      </div>
+      <div class="col-sm-4 img-rounded" style="color:white;text-align: center; background-color: rgb(206, 42, 42); margin-left:5px; margin-right:5px;">
+        <h3 style="font-size: 40px; ">Orta</h3>
+        <hr>
+        <p style="font-size: 20px;">İlerletmek İsteyenler</p>
+        <p>
+          Bilgisayar dünyası hakkında biraz bilginiz <br>
+          var ve hacker olmak istiyorsanız size uygun <br>
+          kurs.
+        </p>
+        <hr>
+        <input type="radio" name="ayniad"> Seç
+      </div>
+      <div class="col-sm-4 img-rounded" style="color:white;text-align: center; background-color: rgb(28, 24, 23); margin-left:5px;margin-right: -10px; ">
+        <h3 style="font-size: 40px; ">İleri</h3>        
+        <hr>
+        <p style="font-size: 20px;">Uzmanlaşmak İsteyenler</p>
+        <p>
+          Bilgisayar dünyası hakkında biraz bilginiz <br>
+          var ve hacker olmak istiyorsanız size uygun <br>
+          kurs.
+        </p>
+        <hr>
+        <input type="radio" name="ayniad"> Seç
+      </div>
+    </div>
+  </div>
+  <br>
+  <form class="form-inline img-rounded" action="/action_page.php" style="background-color: white; margin-left: 10px; margin-right: 5px;"> 
+    <p style="padding-top: 20px; margin-left: 50px;">      Kişisel Bilgiler</p>
+    <hr style="color:black;">
+    <div class="form-group" >
+      <input type="name" class="form-control" id="email" placeholder="Adınız" name="name"style="width: 550px; margin-left:50px;">
+    </div>
+    <div class="form-group" >
+      <input type="surname" class="form-control" id="pwd" placeholder="Soyadınız" name="pwd"style="width: 550px; margin-left:50px;">
+    </div>
+    <div class="form-group" >
+      <br>
+      <textarea  rows="5" class="form-control" id="pwd" placeholder="Adres Bilgileri" name="pwd"style="width: 1153px; margin-left:50px;" ></textarea>
+    </div>
+    <div class= "input-group" style="margin-top: 20px; margin-right: 20px; margin-left: 50px;">
+      <span class="input-group-addon">@</span>
+      <input id="msg" type="text" class="form-control" name="msg" placeholder="kullanici_adi" style="width:510px;  margin-right:10px;  ">
+    </div>
+    <div class="input-group" style="margin-top: 20px; margin-right: 20px;">
+      <input id="email" type="text" class="form-control" name="email" placeholder="eposta" style="width: 460px; ">
+      <span class="input-group-addon" style="margin-left: 50px;">@netbus.com</span>
+    </div>
+    <div class="form-row align-items-center" >
+      <br>
+        <select class="custom-select mb-3" id="inlineFormCustomSelect"style="width: 1153px; margin-left:50px; padding:10px">
+          <option selected>Eğitim</option>
+          <option value="1">İlkokul</option>
+          <option value="2">Ortaokul</option>
+          <option value="3">Lise</option>
+          <option value="4">Üniversite</option>
+          <option value="5">Yükesk Lisans</option>
+          <option value="6">Doktora</option>
+        </select>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary" style="background-color: rgb(206, 42, 42); color: white; width: 1153px; margin-left:50px;">Gönder Gelsin</button>
+    </form>
+</body>
+</html>
