@@ -1,2 +1,2 @@
-Zeynep Erva Yalındağ_202013709165
+Zeynep_Erva_Yalindag_202013709165
 2022-2023_internet_programlama_ara_sinav
